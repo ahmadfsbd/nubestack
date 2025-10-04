@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/nubestack/about/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/automation/</loc>
+    <loc>http://localhost:1313/nubestack/automation/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/automation-platforms/</loc>
+    <loc>http://localhost:1313/nubestack/automation-platforms/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cloud-management-tools/</loc>
+    <loc>http://localhost:1313/nubestack/cloud-management-tools/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/nubestack/contact/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/distributed-storage/</loc>
+    <loc>http://localhost:1313/nubestack/distributed-storage/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/migration-service/</loc>
+    <loc>http://localhost:1313/nubestack/migration-service/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/monitoring-solutions/</loc>
+    <loc>http://localhost:1313/nubestack/monitoring-solutions/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/nubestack/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/private-cloud/</loc>
+    <loc>http://localhost:1313/nubestack/private-cloud/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/</loc>
+    <loc>http://localhost:1313/nubestack/products/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/public-cloud/</loc>
+    <loc>http://localhost:1313/nubestack/public-cloud/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/solutions-services/</loc>
+    <loc>http://localhost:1313/nubestack/solutions-services/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/nubestack/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/nubestack/tags/</loc>
   </url>
 </urlset>
