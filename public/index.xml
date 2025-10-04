@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NuBestack Cloud Services</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/nubestack/</link>
     <description>Recent content on NuBestack Cloud Services</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/nubestack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/nubestack/about/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/nubestack/about/</guid>
       <description>&lt;p&gt;NuBestack Cloud Services is dedicated to providing scalable cloud infrastructure and DevOps solutions for businesses of all sizes.&lt;/p&gt;&#xA;&lt;p&gt;Learn more about our mission, team, and values on this page.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/automation/</link>
+      <link>http://localhost:1313/nubestack/automation/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/automation/</guid>
+      <guid>http://localhost:1313/nubestack/automation/</guid>
       <description>&lt;p&gt;Automate your infrastructure and operations with our advanced automation solutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automation Platforms</title>
-      <link>http://localhost:1313/automation-platforms/</link>
+      <link>http://localhost:1313/nubestack/automation-platforms/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/automation-platforms/</guid>
+      <guid>http://localhost:1313/nubestack/automation-platforms/</guid>
       <description>&lt;p&gt;Explore our automation platforms to streamline your operations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Management Tools</title>
-      <link>http://localhost:1313/cloud-management-tools/</link>
+      <link>http://localhost:1313/nubestack/cloud-management-tools/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cloud-management-tools/</guid>
+      <guid>http://localhost:1313/nubestack/cloud-management-tools/</guid>
       <description>&lt;p&gt;Discover our cloud management tools for efficient infrastructure control.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact Us</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:1313/nubestack/contact/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/nubestack/contact/</guid>
       <description>&lt;p&gt;Get in touch with us using the form below or email us at &lt;a href=&#34;mailto:contact@nubestack.com&#34;&gt;contact@nubestack.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Distributed Storage</title>
-      <link>http://localhost:1313/distributed-storage/</link>
+      <link>http://localhost:1313/nubestack/distributed-storage/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/distributed-storage/</guid>
+      <guid>http://localhost:1313/nubestack/distributed-storage/</guid>
       <description>&lt;p&gt;Explore our distributed storage services for high availability and reliability.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migration Service</title>
-      <link>http://localhost:1313/migration-service/</link>
+      <link>http://localhost:1313/nubestack/migration-service/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/migration-service/</guid>
+      <guid>http://localhost:1313/nubestack/migration-service/</guid>
       <description>&lt;p&gt;Seamlessly migrate your workloads to the cloud with our expert migration services.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monitoring Solutions</title>
-      <link>http://localhost:1313/monitoring-solutions/</link>
+      <link>http://localhost:1313/nubestack/monitoring-solutions/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/monitoring-solutions/</guid>
+      <guid>http://localhost:1313/nubestack/monitoring-solutions/</guid>
       <description>&lt;p&gt;Monitor your cloud and infrastructure with our advanced solutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Private Cloud</title>
-      <link>http://localhost:1313/private-cloud/</link>
+      <link>http://localhost:1313/nubestack/private-cloud/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/private-cloud/</guid>
+      <guid>http://localhost:1313/nubestack/private-cloud/</guid>
       <description>&lt;p&gt;Learn about our secure, scalable private cloud solutions for your enterprise needs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Products</title>
-      <link>http://localhost:1313/products/</link>
+      <link>http://localhost:1313/nubestack/products/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/products/</guid>
+      <guid>http://localhost:1313/nubestack/products/</guid>
       <description>&lt;p&gt;Explore our products, including cloud management tools, automation platforms, and monitoring solutions.&lt;/p&gt;&#xA;&lt;p&gt;Find the right product for your business.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Public Cloud</title>
-      <link>http://localhost:1313/public-cloud/</link>
+      <link>http://localhost:1313/nubestack/public-cloud/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/public-cloud/</guid>
+      <guid>http://localhost:1313/nubestack/public-cloud/</guid>
       <description>&lt;p&gt;Benefit from our public cloud offerings for flexibility and cost efficiency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solutions &amp; Services</title>
-      <link>http://localhost:1313/solutions-services/</link>
+      <link>http://localhost:1313/nubestack/solutions-services/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions-services/</guid>
+      <guid>http://localhost:1313/nubestack/solutions-services/</guid>
       <description>&lt;p&gt;Discover our range of cloud solutions and DevOps services designed to help your business grow and succeed.&lt;/p&gt;&#xA;&lt;p&gt;Contact us for a custom solution tailored to your needs.&lt;/p&gt;</description>
     </item>
   </channel>
