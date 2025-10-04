@@ -459,7 +459,7 @@
             width: 5em;
             height: 5em;
             line-height: 5em;
-            box-shadow: 0 0 0 7px _palette(accent, fg), 0 0 0 8px _palette(border);
+            box-shadow: 0 0 0 7px _palette(accent, fg), 0 0 0 8px _palette(fg-bold);
             margin: 0 0 2em 0;
 
             &:before {
@@ -688,8 +688,9 @@
     button,
     .button {
         @include vendor('appearance', 'none');
-        @include vendor('transition', 'background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out');
+        @include vendor('transition', 'all 0.3s ease-in-out');
         @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15))', 'url("images/bg01.png")'));
+        @include vendor('transform', 'translateY(0) scale(1)');
         background-color: _palette(accent, bg);
         border-radius: _size(radius);
         border: 0;
@@ -703,10 +704,13 @@
         text-decoration: none;
         font-weight: 600;
         letter-spacing: -0.025em;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 
         &:hover {
             background-color: lighten(_palette(accent, bg), 5);
             color: _palette(accent, fg) !important;
+            @include vendor('transform', 'translateY(-2px) scale(1.05)');
+            box-shadow: 0 4px 12px rgba(60, 125, 125, 0.3);
         }
 
         &:active {
@@ -715,15 +719,18 @@
         }
 
         &.alt {
-            background-color: _palette(obscure, bg-light);
+            background-color: _palette(accent, bg);
             color: _palette(accent, fg);
 
             &:hover {
-                background-color: lighten(_palette(obscure, bg-light), 5);
+                background-color: lighten(_palette(accent, bg), 5);
+                @include vendor('transform', 'translateY(-2px) scale(1.05)');
+                box-shadow: 0 4px 12px rgba(60, 125, 125, 0.3);
             }
 
             &:active {
-                background-color: darken(_palette(obscure, bg-light), 5);
+                background-color: darken(_palette(accent, bg), 5);
+                @include vendor('transform', 'translateY(0) scale(0.98)');
             }
         }
 
@@ -829,6 +836,9 @@
                     border: 0;
                     display: block;
                     padding: 1.5em 0.5em 1.35em 0.5em;
+                    font-weight: 600;
+                    @include vendor('transition', 'all 0.3s ease-in-out');
+                    @include vendor('transform', 'translateY(0)');
                 }
 
                 &:first-child {
@@ -837,7 +847,9 @@
 
                 &:hover {
                     a {
-                        color: _palette(accent, fg);
+                        color: #3c7d7d;
+                        @include vendor('transform', 'translateY(-2px)');
+                        text-shadow: 0 2px 4px rgba(60, 125, 125, 0.2);
                     }
                 }
 
@@ -859,13 +871,13 @@
                     }
 
                     a {
-                        color: _palette(accent, fg);
+                        color: #3c7d7d;
                     }
                 }
 
                 &.active {
                     a {
-                        color: _palette(accent, fg);
+                        color: #3c7d7d;
                     }
 
                     &.current {
@@ -924,9 +936,7 @@
 /* Banner */
 
     #banner {
-        background-image: url(
-            {{ ( index ( index .Site.Data .Site.Language.Lang | default .Site.Data ) "homepage" "banner" "image" | default "images/banner.jpg" ) }}
-        );
+        @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("images/banner.jpg")'));
         background-position: center center;
         background-size: cover;
         height: 28em;
@@ -1029,10 +1039,15 @@
         a {
             color: inherit;
             border-bottom-color: transparentize(_palette(fg), 0.75);
+            @include vendor('transition', 'all 0.3s ease-in-out');
+            @include vendor('transform', 'translateX(0)');
+            position: relative;
 
             &:hover {
                 color: _palette(accent, bg);
                 border-bottom-color: transparent;
+                @include vendor('transform', 'translateX(3px)');
+                text-shadow: 0 0 8px rgba(60, 125, 125, 0.4);
             }
         }
 
@@ -1046,9 +1061,14 @@
 
             a {
                 color: _palette(fg-light);
+                @include vendor('transition', 'all 0.3s ease-in-out');
+                @include vendor('transform', 'scale(1)');
+                display: inline-block;
 
                 &:hover {
-                    color: _palette(fg);
+                    color: _palette(accent, bg);
+                    @include vendor('transform', 'scale(1.2) rotateZ(5deg)');
+                    text-shadow: 0 0 10px rgba(60, 125, 125, 0.6);
                 }
             }
         }
@@ -1419,13 +1439,13 @@
                         text-align: center;
                         width: 44px;
                         font-size: 25px;
-                        color: _palette(accent, fg);
-                        opacity: 0.5;
+                        color: _palette(obscure, fg);
+                        opacity: 1;
                     }
 
                     &:active {
                         &:before {
-                            opacity: 0.75;
+                            opacity: 0.8;
                         }
                     }
                 }

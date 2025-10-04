@@ -8,10 +8,6 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/_index.de/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/_index.es/</loc>
-  </url><url>
     <loc>http://localhost:1313/left-sidebar/</loc>
   </url><url>
     <loc>http://localhost:1313/right-sidebar/</loc>
@@ -20,22 +16,10 @@
   </url><url>
     <loc>http://localhost:1313/no-sidebar/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/beispiel/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/sixth.de/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/duis-neque/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ejemplo/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/sixth.es/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -44,50 +28,20 @@
     <loc>http://localhost:1313/posts/sixth/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fifth.de/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/fifth.es/</loc>
-    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/lorem-ipsum/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/fifth/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fourth.de/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/fourth.es/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/fourth/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/third.de/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/third.es/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/third/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/second.de/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/second.es/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/second/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/first.de/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/first.es/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/first/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
