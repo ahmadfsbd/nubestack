@@ -1,4 +1,4 @@
-baseURL = "https://ahmadfsbd.github.io/nubestack/"
+baseURL = "https://localhost:1313/"
 languageCode = "en-us"
 title = "NuBestack Cloud Services"
 theme = "hugo-arcana"
