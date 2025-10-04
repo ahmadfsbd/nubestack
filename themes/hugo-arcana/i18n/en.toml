@@ -1,0 +1,26 @@
+[contact_name]
+other = "Name"
+
+[contact_email]
+other = "Email"
+
+[contact_message]
+other = "Message"
+
+[contact_submit]
+other = "Send Message"
+
+[language_select]
+other = "Select language"
+
+[sidebar_heading_1]
+other = "Magna Feugiat"
+
+[sidebar_button_1]
+other = "More"
+
+[sidebar_heading_2]
+other = "Ipsum Dolore"
+
+[sidebar_button_2]
+other = "More"
