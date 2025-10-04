@@ -3,6 +3,16 @@
         {{- partial "languages.html" . }}
     {{- end -}}
     
+    <!-- Hidden logo wrapper for mobile titleBar generation -->
+    <div id="logo-wrapper" style="display: none;">
+        <a href="{{ .Site.BaseURL }}">
+            {{- if .Site.Data.globalheader.image }}
+                <img src="{{ .Site.Data.globalheader.image | relURL }}" alt="{{ .Site.Data.globalheader.image_alt }}" />
+            {{- end }}
+            {{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{ end }}
+        </a>
+    </div>
+    
     <nav id="nav">
         <ul>
             <li class="logo-item">
