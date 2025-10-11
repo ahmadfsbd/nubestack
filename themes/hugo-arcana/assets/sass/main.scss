@@ -1649,6 +1649,10 @@
                     line-height: 48px;
                     padding: 0 1em 0 1em;
                     text-decoration: none;
+                    position: relative;
+                    @include vendor('transition', 'all 0.3s ease');
+                    @include vendor('transform', 'translateX(0)');
+                    background: transparent;
 
                     &:first-child {
                         border-top: 0;
@@ -1656,6 +1660,37 @@
 
                     &.depth-0 {
                         color: _palette(accent, fg);
+                    }
+
+
+                    // Hover animation
+                    &:hover {
+                        background: rgba(255,255,255,0.05);
+                        @include vendor('transform', 'translateX(8px)');
+                        color: _palette(accent, fg);
+                        
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            bottom: 0;
+                            width: 3px;
+                            background: _palette(accent, bg);
+                            @include vendor('animation', 'slideIn 0.3s ease');
+                        }
+                    }
+
+                    // Click/Active animation
+                    &:active {
+                        @include vendor('transform', 'translateX(12px) scale(0.98)');
+                        background: rgba(255,255,255,0.1);
+                        @include vendor('transition', 'all 0.15s ease');
+                        
+                        &:before {
+                            width: 5px;
+                            background: lighten(_palette(accent, bg), 10%);
+                        }
                     }
 
                     .indent-1 { display: inline-block; width: 1em; }
