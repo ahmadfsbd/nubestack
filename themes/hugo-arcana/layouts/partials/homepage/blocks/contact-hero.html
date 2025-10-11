@@ -1,0 +1,42 @@
+<!-- Contact Hero Section -->
+<section class="contact-hero">
+    <div class="hero-background">
+        {{ if .item.background_pattern }}
+        <div class="hero-pattern"></div>
+        {{ end }}
+        <div class="floating-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ .item.title }}</h1>
+            <p class="hero-subtitle">{{ .item.subtitle }}</p>
+            
+            {{ if .item.stats }}
+            <div class="hero-stats">
+                {{ range $index, $stat := .item.stats }}
+                {{ $delay := mul $index 200 }}
+                <div class="stat-card" data-delay="{{ $delay }}">
+                    <div class="stat-icon">
+                        <i class="{{ $stat.icon }}"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">{{ $stat.number }}</span>
+                        <span class="stat-label">{{ $stat.label }}</span>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            {{ if .item.button }}
+            <div class="hero-button">
+                <a href="{{ .item.button.url }}" class="button large">{{ .item.button.contents }}</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

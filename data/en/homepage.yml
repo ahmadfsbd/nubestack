@@ -42,8 +42,20 @@ items:
     #heading: Recent Posts
     content_type: posts
     max: 4
-  - type: cta
-    contents: Are you ready to continue your quest?
+  - type: contact-hero
+    title: "Let's Connect & Create Together"
+    subtitle: "Ready to transform your business with cloud innovation? Let's make it happen."
+    background_pattern: true
+    stats:
+      - number: "500+"
+        label: "Projects Delivered"
+        icon: "fas fa-rocket"
+      - number: "24/7"
+        label: "Support Available"
+        icon: "fas fa-clock"
+      - number: "99.9%"
+        label: "Uptime SLA"
+        icon: "fas fa-shield-alt"
     button:
-      contents: Insert Coin
-      url: "#"
+      contents: "Get Started Today"
+      url: "/contact"
