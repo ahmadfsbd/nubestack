@@ -1,4 +1,4 @@
-baseURL = "https://ahmadfsbd.github.io/nubestack/"
+baseURL = "https://nubestack.com/"
 languageCode = "en-us"
 #title = "Arcana for Hugo"
 theme = "hugo-arcana"
