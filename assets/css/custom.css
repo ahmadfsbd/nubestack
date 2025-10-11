@@ -1,0 +1,29 @@
+/* Custom styles for square service boxes */
+.icon.major.square {
+    border-radius: 8px; /* Square with slight rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon.major.square:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 0 7px rgba(60, 125, 125, 0.2), 0 0 0 8px rgba(60, 125, 125, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.box.highlight a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.box.highlight a:hover h3 {
+    color: #3c7d7d;
+    transition: color 0.3s ease;
+}
+
+.box.highlight {
+    transition: transform 0.3s ease;
+}
+
+.box.highlight:hover {
+    transform: translateY(-2px);
+}

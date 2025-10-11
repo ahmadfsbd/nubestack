@@ -7,23 +7,34 @@ banner:
     url: "#"
 items:
   - type: highlights
-    items_per_row: 3
+    title: "Our Services"
+    subtitle: "Comprehensive technology solutions for your business"
+    items_per_row: 4
     items:
-    - title: This Is Important
-      icon: fa-paper-plane
+    - title: Cloud Solutions
+      icon: fa-cloud
+      url: /services/cloud
+      description: "AWS, Azure & Google Cloud"
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Also Important
-      icon: fa-pencil-alt
+        Scalable and secure cloud infrastructure solutions to help your business grow efficiently with enterprise-grade security and 99.9% uptime guarantee.
+    - title: Web Development
+      icon: fa-code
+      url: /services/web-development
+      description: "React, Vue.js & Full-Stack"
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Probably Important
-      icon: fa-wrench
+        Professional web development services using modern frameworks and technologies to build responsive, fast, and user-friendly digital experiences.
+    - title: DevOps Services
+      icon: fa-cogs
+      url: /services/devops
+      description: "CI/CD, Docker & Kubernetes"
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+        Streamline your development and operations with automated CI/CD pipelines, containerization, and infrastructure as code for faster deployments.
+    - title: Technology Consulting
+      icon: fa-lightbulb
+      url: /services/consulting
+      description: "Strategy & Architecture"
+      content: >
+        Expert guidance and strategic advice to help you make informed technology decisions, optimize processes, and drive digital transformation.
   - type: heading
     heading: A gigantic heading you can use for whatever
     contents: With a much smaller subtitle hanging out just below it
