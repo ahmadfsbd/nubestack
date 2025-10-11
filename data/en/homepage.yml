@@ -30,7 +30,7 @@ items:
       content: >
         Incorporate Telco grade NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.
     - title: Managed Services
-      icon: fa-tasks
+      icon: fa-robot
       url: /services/managed-services
 #      description: "Managed Cloud Infrastructure"
       content: >

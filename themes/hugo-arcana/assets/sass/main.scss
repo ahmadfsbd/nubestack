@@ -1,3 +1,11 @@
+@media (max-width: 736px) {
+    #header,
+    #nav:after {
+        background: #fff !important;
+        background-image: none !important;
+        box-shadow: none !important;
+    }
+}
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -912,6 +920,28 @@
         }
     }
 
+@media (max-width: 736px) {
+  .box.highlight .service-box {
+    align-items: center !important;
+    justify-content: flex-start !important;
+    position: relative !important;
+  }
+  .box.highlight .service-box .icon.major.square {
+    display: block !important;
+    margin: 0.5em auto 0.5em auto !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    float: none !important;
+    width: 3.5em !important;
+    height: 3.5em !important;
+    line-height: 3.5em !important;
+    box-shadow: 0 4px 15px rgba(60,125,125,0.2) !important;
+    z-index: 1 !important;
+    align-self: center !important;
+  }
+}
+
 /* Header */
 
     #header {
@@ -931,12 +961,12 @@
         padding: 0;
 
         &:after {
-            content: '';
-            display: block;
-            width: 100%;
-            height: 0.75em;
-            background-color: _palette(accent, bg);
-            background-image: url("images/bg01.png");
+          content: '';
+          display: block;
+          width: 100%;
+          height: 0.50em;
+          background-color: #3c7d7d !important;
+          background-image: none !important;
         }
 
         > ul {
@@ -1034,7 +1064,7 @@
         color: #333;
         min-width: 14em;
         padding: 0.8em 0;
-        text-align: left;
+        text-align: center;
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         list-style: none;
         z-index: 10000;
@@ -1106,7 +1136,7 @@
     @include vendor('background-image', ('url("images/banner.jpg")'));
         background-position: center center;
         background-size: cover;
-        height: 28em;
+        height: 35em;
         text-align: center;
         position: relative;
 
@@ -1201,7 +1231,7 @@
 /* Footer */
 
     #footer {
-        padding: 4em 0 8em 0;
+        padding: 4em 0 1em 0;
 
         a {
             color: inherit;
@@ -1773,7 +1803,7 @@
             }
 
             h3 {
-                font-size: 1em;
+                font-size: 1.25em;
                 letter-spacing: 0;
                 line-height: 1.35em;
             }
@@ -1814,7 +1844,7 @@
         /* Banner */
 
             #banner {
-                height: 18em;
+                height: 25em;
             }
 
         /* Wrapper */
