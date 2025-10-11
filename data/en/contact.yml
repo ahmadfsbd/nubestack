@@ -1,0 +1,78 @@
+hero:
+  title: "Let's Connect & Create Together"
+  subtitle: "Ready to transform your business with cloud innovation? We're here to make it happen."
+  background_pattern: true
+  stats:
+    - number: "500+"
+      label: "Projects Delivered"
+      icon: "fas fa-rocket"
+    - number: "24/7"
+      label: "Support Available"
+      icon: "fas fa-clock"
+    - number: "99.9%"
+      label: "Uptime SLA"
+      icon: "fas fa-shield-alt"
+
+contact_methods:
+  title: "Get in Touch"
+  subtitle: "Choose your preferred way to contact us"
+  methods:
+    - name: "Email Us"
+      icon: "fas fa-envelope"
+      value: "contact@nubestack.com"
+      link: "mailto:contact@nubestack.com"
+      description: "Send us a detailed message"
+    - name: "Call Us"
+      icon: "fas fa-phone"
+      value: "+1 (555) 123-4567"
+      link: "tel:+15551234567"
+      description: "Speak with our team directly"
+    - name: "WhatsApp"
+      icon: "fab fa-whatsapp"
+      value: "+1 (555) 123-4567"
+      link: "https://wa.me/15551234567"
+      description: "Quick messaging support"
+
+contact_form:
+  title: "Send a Message"
+  subtitle: "Tell us about your project and we'll get back to you soon"
+  fields:
+    - name: "name"
+      label: "Full Name"
+      type: "text"
+      required: true
+      icon: "fas fa-user"
+    - name: "email"
+      label: "Email Address"
+      type: "email"
+      required: true
+      icon: "fas fa-envelope"
+    - name: "phone"
+      label: "Phone Number"
+      type: "tel"
+      required: false
+      icon: "fas fa-phone"
+    - name: "company"
+      label: "Company Name"
+      type: "text"
+      required: false
+      icon: "fas fa-building"
+    - name: "services"
+      label: "Services Required"
+      type: "select"
+      required: false
+      icon: "fas fa-cogs"
+      options:
+        - "Cloud Migrations"
+        - "Private Cloud Design/Deployment"
+        - "DevOps & CI/CD"
+        - "Infrastructure Automation"
+        - "Consulting Services"
+        - "Other"
+    - name: "message"
+      label: "Project Details"
+      type: "textarea"
+      required: true
+      icon: "fas fa-file-text"
+      placeholder: "Tell us about your project requirements and goals..."
+  submit_text: "Send Message"

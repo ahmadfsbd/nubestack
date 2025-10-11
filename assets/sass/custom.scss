@@ -1,0 +1,26 @@
+/* Custom footer styling to maintain black background and white text */
+#footer {
+    background-color: #1f1f1f !important;
+    color: #ffffff !important;
+
+    a {
+        color: #ffffff !important;
+        border-bottom-color: rgba(255, 255, 255, 0.25) !important;
+
+        &:hover {
+            color: #3c7d7d !important;
+        }
+    }
+
+    .icons a {
+        color: #cccccc !important;
+
+        &:hover {
+            color: #3c7d7d !important;
+        }
+    }
+
+    .copyright {
+        color: #cccccc !important;
+    }
+}
